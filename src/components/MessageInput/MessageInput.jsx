@@ -136,10 +136,10 @@ function MessageInputInner(
   };
 
   const handleKeyDown = (evt) => {
-    if (evt.key === "Enter" && evt.shiftKey === false) {
-      evt.preventDefault();
-      send();
-    }
+    // if (evt.key === "Enter" && evt.shiftKey === false) {
+    //   evt.preventDefault();
+    //   send();
+    // }
   };
 
   const handleChange = (val, textContent, innerText) => {
